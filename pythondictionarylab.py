@@ -52,9 +52,10 @@ textbook_dict = {
 #print(textbook_dict["textbook1"])
 
 # this prints the value associated with the "textbook1" key, notice it is a dictionary
-#print(textbook_dict["textbook1"]["title"])
+#print(textbook_dict["textbook1"]["title"].upper())
 
-# now if we wanted to access the "title" key, the output is a string; and "awards" is a list, that means we apply string and list methods to those items
+# now if we wanted to access the "title" key, the output is a string; and "awards" is a list, that 
+#means we apply string and list methods to those items
 
 #print(type(textbook_dict["textbook1"]["title"]))
 #print(type(textbook_dict["textbook1"]["awards"]))
@@ -64,7 +65,8 @@ textbook_dict = {
 #print(textbook_dict["textbook1"]["awards"])
 
 #### add a new award names topstar to textbook4
-
+textbook_dict["textbook4"]["awards"].append("topstar")
+print(textbook_dict["textbook4"]["awards"])
 #### commit changes to main
 
 #there are two ways to get a value associated with a key (like above), or by using the get methods
