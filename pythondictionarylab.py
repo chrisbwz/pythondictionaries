@@ -3,8 +3,8 @@
 new_dict1 = {}
 new_dict2 = dict()
 
-#print(new_dict1)
-#print(new_dict2)
+print(new_dict1)
+print(new_dict2)
 
 textbook_dict = {
   "textbook1" : {
@@ -65,8 +65,8 @@ textbook_dict = {
 #print(textbook_dict["textbook1"]["awards"])
 
 #### add a new award names topstar to textbook4
-textbook_dict["textbook4"]["awards"].append("topstar")
-print(textbook_dict["textbook4"]["awards"])
+#textbook_dict["textbook4"]["awards"].append("topstar")
+#print(textbook_dict["textbook4"]["awards"])
 #### commit changes to main
 
 #there are two ways to get a value associated with a key (like above), or by using the get methods
@@ -129,6 +129,13 @@ textbook_dict['textbook6']["awards"] = ["globe", "gold"]
 
 
 #### using one of the dictionary methods, change the author of textbook3 to Kloey Twistar 
+textbook_dict "textbook3" : {
+    "id" : "3",
+    "title" : "practical ansible",
+	"author": "Oluwole Kayoke",
+	"year": 2022,
+	"awards":["redhat"]
+  },
 
 #### commit changes to main
 
